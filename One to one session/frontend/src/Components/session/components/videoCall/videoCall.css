@@ -1,0 +1,28 @@
+.videoCallScreenSmall{
+    width: 482px;
+    height: 239.41px;
+    background-color: #27292D;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 9px;
+}
+
+.callSmall{
+    width: 474px;
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+}
+
+.localVideo{
+    width: auto;
+    height: 350px;
+}

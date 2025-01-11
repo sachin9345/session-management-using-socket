@@ -1,0 +1,43 @@
+.navSS{
+    height: 60px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #27292D;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+.logo {
+    padding-left: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: flex-end;
+    background-color: #3D4042;
+    border-radius: 9px;
+}
+.profileCircle{
+   background-color: aliceblue;
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+
+.navSS h1{
+    font-weight: 500;
+    font-size: 14px;
+    color: #F5F5F5;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+}

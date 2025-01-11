@@ -1,0 +1,33 @@
+.wholeSS{
+    background-color: #1B1A1D;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.bodyScreen{
+    display: flex;
+}
+
+.whiteBoardScreen{
+    border-radius: 9px;
+}
+.navScreen{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.callDiv{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+.expandDiv{
+    width: 1200px;
+}

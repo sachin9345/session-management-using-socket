@@ -1,0 +1,111 @@
+/* Container styling */
+.create-session-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: white;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Button styling */
+  .create-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff5a5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-button:hover {
+    background-color: #ff6b6b;
+  }
+  
+  /* Popup styling */
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .session-link {
+    display: block;
+    margin: 10px 0;
+    color: #2575fc;
+    font-weight: bold;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  
+  .copy-button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-button:hover {
+    background-color: #45a049;
+  }
+  
+  .copy-success {
+    margin-top: 10px;
+    color: green;
+    font-size: 14px;
+  }
+  
+  .close-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff5a5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    background-color: #ff6b6b;
+  }
+  
+  /* Additional styling */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .copy-icon{
+    cursor: pointer;
+  }

@@ -1,0 +1,54 @@
+.functions-div {
+    background-color: #27292D;
+    width: 482px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+
+}
+
+.functions {
+    display: flex;
+    gap: 20px;
+}
+
+.functions button, .functions button.mic, .functions button.video, .functions button.expand {
+    padding: 9px 9px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.mic-off, .video-off {
+    background-color: #FF3B30;
+}
+
+.mic-on, .video-on, .share-on {
+    background-color: #007AFF;
+}
+
+.expand {
+    background-color: #007AFF;
+}
+
+.share {
+    background-color: #3D4042;
+}
+
+.share-on {
+    background-color: #007AFF;
+}
+
+.functions button img {
+    width: 100%;
+    height: auto;
+}
+
+.mic img, .video img, .expand img, .share img {
+    width: 20px;
+    height: 20px;
+}

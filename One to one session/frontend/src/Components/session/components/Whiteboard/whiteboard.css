@@ -1,0 +1,177 @@
+.whiteBoardDiv {
+    width: 1200px;
+    background-color: #27292D;
+    position: relative; /* Ensure the drawer and tools are positioned correctly */
+}
+
+.whiteBoardDiv.expanded {
+    width: 100%; 
+    height: 100%;
+    border-radius: 9px; 
+}
+
+.whiteBoardNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.whiteBoardNavLeft {
+    display: flex;
+    align-items: center;
+}
+
+.whiteBoardIcon {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.whiteBoardTitle {
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+}
+
+.whiteBoardNavRight {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds some space between the dropdowns */
+}
+
+.changeEditorDD .dropdown-basic {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #3D4042;
+    color: white;
+}
+
+.changeEditBtn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.changeEditorIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.changeEditorText {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #007bff;
+    color: white;
+}
+
+.dropdown-item {
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #007AFF;
+    color: white;
+}
+
+.toolBar {
+    position: relative;
+}
+
+.toolbarDropdown .toolbarToggle {
+    background-color: #6c757d;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbarIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.toolbarDropdown .toolbarMenu {
+    position: absolute;
+    top: 0;
+    right: 100%; /* Aligns the menu to the left of the button */
+    margin-right: 10px; /* Adds space between the button and the menu */
+    background-color: #343a40;
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stacks buttons vertically */
+}
+
+.toolButton {
+    color: white;
+    background-color: #495057;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.toolButton:hover {
+    background-color: #007AFF;
+}
+
+.toolIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.expand {
+    background-color: #007AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.expandBtn {
+    width: 20px;
+    height: 20px;
+}
+
+.zoomButton {
+    background-color: #007AFF;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.zoomIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.whiteScreenBody {
+    background-color: #fff;
+    background-image: url('./board.png');
+    background-repeat: repeat;
+    height: 607px;
+    border-radius: 0 0 9px 9px;
+    position: relative; /* Ensure the canvas is positioned correctly */
+}
+
+.whiteboardCanvas {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    background: #fff;
+    cursor: crosshair; /* Change cursor style */
+}
